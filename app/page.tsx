@@ -1,7 +1,11 @@
-const HomePage = () => {
-  return (
-    <div className="text-3xl font-bold">Welcome to the portfolio</div>
-  )
-}
+import HeroHome from "@/components/partials/HeroHome";
 
-export default HomePage
+const Home = () => {
+  return (
+    <>
+      <HeroHome />
+    </>
+  );
+};
+
+export default Home;
